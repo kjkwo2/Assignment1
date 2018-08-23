@@ -34,7 +34,12 @@
 
                 <div class="collapse navbar-collapse navbar-right" id="nav-links">
                     <ul id="navlinks" class="nav navbar-nav">
-					
+						<div id="search-icons" class="visible-xs" >
+			
+							<input type="text" placeholder="Search.." name="search">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						
+						</div>
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Events</a></li>
@@ -64,12 +69,9 @@
 			
 			<a href="https://plus.google.com/117304435946196297049"><i class="fa fa-google-plus" style="color:white"></i></a>
 			
-			<div id="searchbar">
-
+			
 		
-		</div>	
-		
-		<div id="search-icons" >
+		<div id="search-icons" class="visible-lg" >
 		
 			<input type="text" placeholder="Search.." name="search">
 			<button type="submit"><i class="fa fa-search"></i></button>
@@ -239,25 +241,11 @@
 
 						</div>
 					</div>
-					
-					
-					
-					
-					
-					
-					
-	
-			
-			
-			
-
-
-
 		
         </div>
 		
 
-	<div id="container-news" class="container-fluid">
+	<div id="container-news" class="container-fluid container-left">
 		<!-- Trigger the modal with a link -->
 		
 		<a type="link" class="btn btn-link" data-toggle="modal" data-target="#myModalNews">
@@ -270,7 +258,7 @@
 					
 					
 
-	<div id="container-art" class="container-fluid">
+	<div id="container-art" class="container-fluid container-right">
 		<!-- Trigger the modal with a link -->
 		
 		<a type="link" class="btn btn-link" data-toggle="modal" data-target="#myModalArt">
@@ -280,7 +268,7 @@
 
 
 
-	<div id="container-films" class="container-fluid">
+	<div id="container-films" class="container-fluid container-left">
 		<!-- Trigger the modal with a link -->
 		
 		<a type="link" class="btn btn-link" data-toggle="modal" data-target="#myModalFilms">
@@ -291,7 +279,7 @@
 
 
 
- 	<div id="container-topics" class="container-fluid">
+ 	<div id="container-topics" class="container-fluid container-right">
 	
 		<!-- Trigger the modal with a link -->
 		
@@ -306,9 +294,8 @@
 		<form>
 		  <div class="form-group">
 			<label for="formGroupExampleInput"> <b>Subscribe to our newsletter!</b> </label>
-			<div id="email-box">
-				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your email address">
-			</div>
+			
+            <input id="email-box" type="email" class="form-control" placeholder="Enter your email address">
 		  </div>
 		  
 		</form>
