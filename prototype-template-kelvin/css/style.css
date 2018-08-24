@@ -88,22 +88,22 @@ h1, h2, h3, h4, h5, h6 {
 /*Title for the modals */
 #title-news {
 	color: blue;
-	padding-left: 35vmin;	
+	
 }
 
 #title-art {
 	color: red;
-	padding-left: 20vmin;	
+	
 }
 
 #title-films {
 	color: green;
-	padding-left: 40vmin;	
+	
 }
 
 #title-topics {
 	color: orange;
-	padding-left: 40vmin;	
+	
 }
 /*All modal content (size) */
 #content-news {	
@@ -132,39 +132,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-/*Text in modals */
-#modal-news > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 12vmin;	
-}
-
-#modal-news > h2 {
-	font-size: 24px;
-	align: center;
-	padding-left: 28vmin;
-}
-
-#modal-art > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 22vmin;
-}
-
-#modal-films > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 35vmin;
-}
-
-#modal-topics > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 12vmin;
-}
-
 /*Pictures in modals */
 
 #modal-news > img {
@@ -187,6 +154,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 17vmin;
   
 }
+
+.modal-title {
+	text-align: center;
+
+	}
 
 .modal:before {
   content: '';
@@ -350,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
     
 	}
 	
-		/*All modal content (size) */
+	/*All modal content (size) */
 	#content-news {	
 		width:  78vmin;
 		height: 100%;
@@ -362,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 		width:  78vmin;
 		height: 100%;
 		vertical-align: left;	
+		
 	}
 
 
@@ -374,10 +347,11 @@ h1, h2, h3, h4, h5, h6 {
 	#content-topic {	
 		width:  78vmin;
 		height: 100%;
-		vertical-align: top;	
+		vertical-align: top;
+	    
 	}
 	
-		/*Title for the modals */
+/*Title for the modals */
 	#title-news {
 		color: blue;
 		padding-left: 28vmin;	
@@ -386,6 +360,8 @@ h1, h2, h3, h4, h5, h6 {
 	#title-art {
 		color: red;
 		padding-left: 7vmin;	
+		text-align: center;
+		
 	}
 
 	#title-films {
@@ -398,36 +374,6 @@ h1, h2, h3, h4, h5, h6 {
 		padding-left: 33vmin;	
 	}
 
-	/*Text in modals */
-#modal-news > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 5vmin;	
-}
-
-#modal-news > h2 {
-	font-size: 24px;
-	align: center;
-	padding-left: 5vmin;
-}
-
-#modal-art > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 22vmin;
-}
-
-#modal-films > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 35vmin;
-}
-
-#modal-topics > h1 {
-	font-size: 24px;
-	align: center;
-	padding-left: 12vmin;
-}
 
 /*Pictures in modals */
 
@@ -441,10 +387,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #modal-films > img {
 	padding-left: 5vmin;
+	
 }
 
 .modal-body > img {
 	width: 80%;
+	text-align: center;
 	}
 
 .modal-dialog{
