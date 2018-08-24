@@ -134,19 +134,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Pictures in modals */
 
-#modal-news > img {
-	padding-left: 18vmin;
-	
-}
+.modal-body > img {
+	width: 80%;
+	margin-left: 10%;
 
-
-#modal-art > img {
-	padding-left: 18vmin;
-}
-
-#modal-films > img {
-	padding-left: 18vmin;
-}
+	}
 
 .modal {
   text-align: center;
@@ -354,51 +346,27 @@ h1, h2, h3, h4, h5, h6 {
 /*Title for the modals */
 	#title-news {
 		color: blue;
-		padding-left: 28vmin;	
+		
 	}
 
 	#title-art {
 		color: red;
-		padding-left: 7vmin;	
+	
 		text-align: center;
 		
 	}
 
 	#title-films {
 		color: green;
-		padding-left: 33vmin;	
+	
 	}
 
 	#title-topics {
 		color: orange;
-		padding-left: 33vmin;	
+		
 	}
 
 
-/*Pictures in modals */
 
-#modal-news > img {
-	padding-left: 5vmin;
-}
-
-#modal-art > img {
-	padding-left: 5vmin;
-}
-
-#modal-films > img {
-	padding-left: 5vmin;
-	
-}
-
-.modal-body > img {
-	width: 80%;
-	text-align: center;
-	}
-
-.modal-dialog{
-	overflow:visible;
-	min-height:100%;
-	}
-	
 }
 
