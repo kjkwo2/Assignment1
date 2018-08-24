@@ -108,26 +108,26 @@ h1, h2, h3, h4, h5, h6 {
 /*All modal content (size) */
 #content-news {	
 	width:  90vmin;
-	height: 145vmin;
+	height: 100%;
 	vertical-align: left;	
 }
 
 #content-art {	
 	width:  90vmin;
-	height: 125vmin;
+	height: 100%;
 	vertical-align: left;	
 }
 
 
 #content-films {	
 	width:  90vmin;
-	height: 128vmin;
+	height: 100%;
 	vertical-align: center;	
 }
 
 #content-topic {	
 	width:  90vmin;
-	height: 128vmin;
+	height: 100%;
 	vertical-align: top;	
 }
 
@@ -169,7 +169,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #modal-news > img {
 	padding-left: 18vmin;
+	
 }
+
 
 #modal-art > img {
 	padding-left: 18vmin;
@@ -343,27 +345,27 @@ h1, h2, h3, h4, h5, h6 {
 		/*All modal content (size) */
 	#content-news {	
 		width:  78vmin;
-		height: 170vmin;
+		height: 100%;
 		vertical-align: left;	
 		padding-left: 1vmin;
 	}
 
 	#content-art {	
 		width:  78vmin;
-		height: 140vmin;
+		height: 100%;
 		vertical-align: left;	
 	}
 
 
 	#content-films {	
 		width:  78vmin;
-		height: 140vmin;
+		height: 100%;
 		vertical-align: center;	
 	}
 
 	#content-topic {	
 		width:  78vmin;
-		height: 120vmin;
+		height: 100%;
 		vertical-align: top;	
 	}
 	
@@ -433,6 +435,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 5vmin;
 }
 
+.modal-body > img {
+	width: 80%;
+	}
+
+.modal-dialog{
+	overflow:visible;
+	min-height:100%;
+	}
 	
 }
 
